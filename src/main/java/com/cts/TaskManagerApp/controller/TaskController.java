@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cts.TaskManagerApp.model.Task;
 import com.cts.TaskManagerApp.service.TaskService;
 
-
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/tasks")

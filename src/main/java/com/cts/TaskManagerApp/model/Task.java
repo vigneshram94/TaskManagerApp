@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
-@Table(name="task")
+@Table(name="tasks")
 public class Task  {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
